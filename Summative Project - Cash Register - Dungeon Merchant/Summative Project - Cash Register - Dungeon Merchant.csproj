@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6E60F1EA-1158-44E5-8C2F-8CB863771B26}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Summative_Project___Cash_Register___Dungeon_Merchant</RootNamespace>
+    <AssemblyName>Summative Project - Cash Register - Dungeon Merchant</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dungeon.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_nicepng_che-guevara-png_1164718.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-113494458-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\110618-fire-flames-adobestock_134229099.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1000_F_304962032_iKSsf0dcThrZ28GgGkLqqkzVkeGXxMCV.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\110618-fire-flames-adobestock_1342290991.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4fb1980f2c282048035630fe60fcab74_t.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4fb1980f2c282048035630fe60fcab74_t %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4fb1980f2c282048035630fe60fcab74_t %281%29 %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_merchant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NicePng_che-guevara-png_1164718.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_nicepng_che-guevara-png_1164718 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f984087c4acbf38e9d1bdb95722b83db.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\120753-abstract-cool-grey-texture-background-image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1156704.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark-grey-background-phpf8ys7h4fgijgt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NicePng_che-guevara-png_1164718 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark-grey-background-phpf8ys7h4fgijgt1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-cool-blue-crystal-triangle-background-image_708168.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edd9fee3f8b01c63c34fd9e7e0e21ea7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_264076292_eajc66GtVUHIkF9tl8y3vUPgJMSfVKy0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edd9fee3f8b01c63c34fd9e7e0e21ea71.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edd9fee3f8b01c63c34fd9e7e0e21ea72.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_264086703_lXyO66qXXB3q8K6aJMFUyMMbWCowGBEr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\155489-abstract-dark-grey-background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\155500-abstract-dark-grey-background-design.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\static-dark-grey-design.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abstract-geometric-background-black-and-white-vector-10383012.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled_design-removebg-preview %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled_design-removebg-preview %281%29 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled_design-removebg-preview %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled_design-removebg-preview %282%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\receiptSoundEffect.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\receiptSoundEffect.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\247187-Printer-HomeOffice-15.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
